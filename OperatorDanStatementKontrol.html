@@ -1,0 +1,18 @@
+<html>
+<!–-COMP519 js03.html  7.09.2005 -->
+<head>
+	<title>Folding Puzzle</title>
+</head>
+	<body>
+		<script type="text/javascript">
+			distanceToSun= 93.3e6*5280*12;
+			thickness = .002;
+			foldCount= 0;
+				while(thickness < distanceToSun) {
+				thickness *= 2;
+				foldCount++;
+				}
+			document.write("Number of folds = " +foldCount);
+		</script>
+	</body>
+	</html>
